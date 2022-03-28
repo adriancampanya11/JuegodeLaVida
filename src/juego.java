@@ -7,8 +7,7 @@ public class juego {
 
     int vida;
 
-    {System.out.println("Pon las filas: ");}
-    int x=e.nextInt();
+
 
     {System.out.println("Pon las columnas: ");}
     int y=e.nextInt();
