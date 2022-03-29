@@ -7,7 +7,8 @@ public class juego {
 
     int vida;
 
-
+    {System.out.println("Pon las filas: ");}
+    int x=e.nextInt();
 
     {System.out.println("Pon las columnas: ");}
     int y=e.nextInt();
@@ -214,7 +215,8 @@ public class juego {
             System.err.format("IOException: %s%n", e);
         }
         System.out.println(Arrays.deepToString(tabla).replace("],", "],\n"));
-        System.out.println();
+        System.out.println("Hola Blai");
+
     }
 
 }
